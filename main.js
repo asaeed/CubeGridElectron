@@ -12,7 +12,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600})
   //mainWindow = new BrowserWindow({fullscreen:true})
 
-  mainWindow.loadURL('file://' + __dirname + '/index.html')
+  mainWindow.loadURL('file://' + __dirname + '/CubeGrid/index.html')
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
